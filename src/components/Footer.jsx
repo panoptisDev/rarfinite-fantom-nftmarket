@@ -33,7 +33,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://github.com/aniruddhafb/Rarfinite_Marketplace"
+                href="https://github.com/aniruddhafb/Rarfinite_fantomHack"
                 target="_blank"
                 className="group"
               >
