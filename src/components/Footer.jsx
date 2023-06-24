@@ -12,8 +12,8 @@ const Footer = () => {
             <Link href="/" className="mb-4 inline-block">
               <Image
                 src={Rarfinitelogo}
-                height={130}
-                width={150}
+                height={170}
+                width={190}
                 alt="Rarfinite | NFT Marketplace"
               />
             </Link>

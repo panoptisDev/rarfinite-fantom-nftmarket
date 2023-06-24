@@ -7,6 +7,7 @@ import * as PushAPI from "@pushprotocol/restapi";
 
 import Image from "next/image";
 import Rarfinitelogo from "../../public/Rarfinitepng.png";
+import fantomlogo from "../../public/fantom.png";
 
 const Navbar = ({
   connectToWallet,
@@ -15,7 +16,6 @@ const Navbar = ({
   signer_bal,
   chainIdMain,
   Rarfinite_CHANNEL_ADDRESS,
-  symbol,
   signOut,
 }) => {
   const router = useRouter();
@@ -80,8 +80,8 @@ const Navbar = ({
           <Link href="/" className="shrink-0">
             <Image
               src={Rarfinitelogo}
-              height={120}
-              width={120}
+              height={180}
+              width={180}
               alt="Rarfinite | NFT Marketplace"
             />
           </Link>
@@ -568,7 +568,7 @@ const Navbar = ({
                           </span>
                           <div className="flex items-center">
                             <span className="text-lg font-bold text-green">
-                              {signer_bal} {"  "} {symbol}
+                              {signer_bal} {"  "} {"FTM"}
                             </span>
                           </div>
                         </div>

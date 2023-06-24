@@ -9,16 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.14",
+    "@moralisweb3/common-evm-utils": "^2.16.1",
+    "@next/font": "13.1.6",
+    "@polybase/client": "^0.3.37",
     "@pushprotocol/restapi": "^0.2.1",
     "@pushprotocol/socket": "^0.3.1",
     "@pushprotocol/uiweb": "^0.4.1",
+    "@thirdweb-dev/storage": "^1.1.4",
     "autoprefixer": "10.4.14",
+    "ethers": "^5.6.8",
     "next": "13.4.7",
     "postcss": "8.4.24",
-    "ethers": "^5.6.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
+    "moralis": "^2.16.1",
     "tailwindcss": "3.3.2"
   }
 }

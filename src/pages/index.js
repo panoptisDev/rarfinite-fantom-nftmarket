@@ -53,10 +53,9 @@ export default function Home({ all_collections, nfts, artists }) {
                 create, buy, sell and collect NFT’s
               </h1>
               <p className="mb-8 text-center text-lg dark:text-jacarta-200 md:text-left">
-                Cross-chain And Multi-chain NFT Marketplace with features like
-                AI NFT Generation, Cross-chain NFTs, On-chain Collections,
-                Realtime Notifications, Chat with artists, Membership
-                subscriptions for artists, etc.
+                An NFT Marketplace with features like
+                AI NFT Generation, On-chain Collections,
+                Realtime Notifications, Chat with artists, etc.
               </p>
               <div className="flex space-x-4">
                 <Link
